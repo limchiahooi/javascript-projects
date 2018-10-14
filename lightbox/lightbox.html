@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+    <h1>Image Gallery with Lightbox</h1>
+
+    <!-- Gallery -->
+    <ul class="gallery">
+        <li class="gallery-item">
+            <img src="sg.jpg">
+            <p class="caption">Singapore</p>
+        </li>
+        <li class="gallery-item">
+            <img src="malaysia.jpg">
+            <p class="caption">KLCC</p>
+        </li>
+        <li class="gallery-item">
+            <img src="bkk.jpg">
+            <p class="caption">Bangkok</p>
+        </li>
+        <li class="gallery-item">
+            <img src="hk.jpg">
+            <p class="caption">Hong Kong</p>
+        </li>
+        <li class="gallery-item">
+                <img src="taiwan.jpeg">
+                <p class="caption">Taiwan</p>
+        </li>
+            
+    </ul>
+    
+<!-- Lightbox -->
+    <div class="lightbox hidden">
+        
+        <div class="lightbox-content">
+            <div class="lightbox-controls">
+                <a href="#" class="lightbox-close">Close</a>
+                <!-- <a href="#" class="lightbox-prev">Previous</a>
+                <a href="#" class="lightbox-next">Next</a> -->
+            </div>
+            <div class="lightbox-image">
+                <img src="sg.jpg">
+                <p class="caption">Marina Bay Sands</p>
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+    <div id="footer">
+        <p>© 2018. Coded by <a href="https://github.com/limchiahooi" target="_blank">Lim Chia Hooi</a></p>
+    </div>
+
+
+  <script src="scripts.js"></script>
+ 
+</body>
+</html>
